@@ -1,0 +1,22 @@
+{
+  "status": 200,
+  "data": {
+    "attractions": [
+      {
+        "id": 3,
+        "name": "Discover Giza Pyramids",
+        "slug": "discover-giza-pyramids"
+      },
+      {
+        "id": 15,
+        "name": "Necrópolis de Saqqara",
+        "slug": "necrpolis-de-saqqara"
+      },
+      {
+        "id": 11,
+        "name": "Abu Sir",
+        "slug": "abu-sir"
+      }
+    ]
+  }
+}

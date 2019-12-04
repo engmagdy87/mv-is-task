@@ -1,24 +1,31 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="mr-auto d-md-none" @click="showMobileDrawer">
-      <font-awesome-icon :icon="['fas', 'bars']" class="form-control-feedback" />
-    </div>
-
-    <a class="ml-auto" href="#">
-      <img src="../../assets/images/logo.png" alt="plant logo" />
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand brand-wrapper" :href="`/${lang}`">
+      <img src="../../assets/images/logo.png" alt="mv-is logo" />
     </a>
-
-    <div class="ml-auto">
-      <font-awesome-icon :icon="['fas', 'bell']" class="form-control-feedback" />
-      <font-awesome-icon :icon="['fas', 'user']" class="form-control-feedback ml-3" />
-      <font-awesome-icon :icon="['fas', 'ellipsis-v']" class="form-control-feedback ml-3" />
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <select class="custom-select ml-auto" @change="setLang">
+        <option value="en" :selected="lang === 'en'">En</option>
+        <option value="sp" :selected="lang === 'sp'">Sp</option>
+      </select>
     </div>
   </nav>
 </template>
 
 <script>
 export default {
-  props: ["showMobileDrawer"]
+  props: ["lang", "setLang"]
 };
 </script>
 

@@ -1,0 +1,18 @@
+{
+  "status": 1,
+  "data": [
+    {
+      "item": "files/lmnzbmoilq5hg2g5wqgo/egypt - cairo- saqqara.jpg",
+      "type": "image"
+    },
+    {
+      "video": "https://www.youtube.com/embed/qvSbtf68AOg",
+      "type": "video",
+      "item": "files/lmnzbmoilq5hg2g5wqgo/egypt - cairo- saqqara.jpg"
+    },
+    {
+      "item": "files/cvl0alktr4arpnhjje65/egypt-saqqara-step-pyramid.jpg",
+      "type": "image"
+    }
+  ]
+}

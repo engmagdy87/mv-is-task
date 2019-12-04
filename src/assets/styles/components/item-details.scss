@@ -1,0 +1,62 @@
+@import "../mixins.scss";
+
+.gallery-img {
+  width: 100px;
+}
+
+.reviews {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+}
+
+.carousel-inner {
+  border-radius: 10px !important;
+}
+
+.carousel-item {
+  height: 100% !important;
+  width: 100% !important;
+  img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+}
+
+.thumbnails-wrapper {
+  display: flex;
+  justify-content: center;
+  @include is-mobile {
+    justify-content: left;
+  }
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+  height: 130px;
+}
+.thumbnail > img {
+  height: 100px !important;
+  object-fit: cover !important;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px !important;
+}
+
+.ytVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500px;
+  width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  height: 100px;
+  top: 40%;
+}

@@ -1,0 +1,12 @@
+{
+	"status": 200,
+	"data": {
+		"id": 3,
+		"name": "Discover Giza Pyramids",
+		"description": "One of the most mysterious Seven Wonders of the Ancient World (and the only one still standing), the Pyramids of Giza�the Great Pyramid of Khufu, Pyramid of Khafre, and Pyramid of Menkaure�still live up to more than 4,000 years of hype. Seeing these 4th-dynasty pyramids and their guardian Great Sphinx rising from the Giza Plateau is a must on any trip to Cairo (and the reason many travelers find themselves in Egypt).",
+		"slug": "discover-giza-pyramids",
+		"long_description": "<h2>Pyramids</h2><p>Few structures on the planet are as immediately recognizable as the Giza Pyramids, and travelers have several options for visiting these wonders of ancient Egypt. Most see them on a full-day tour from Giza or Cairo; these tours often also include a Nile River cruise or stops at other sights such as Memphis, the Egyptian Museum, and the Khan El Khalili Bazaar. Once at the pyramid site, explore the pyramid complex on foot, or choose to take in the view from afar with a camel ride (a great photo opportunity). Those who visit on their own should keep in mind that there are separate entrance fees for the complex and each individual pyramid.</p>",
+		"rate":4,
+		"reviews":250
+	}
+}

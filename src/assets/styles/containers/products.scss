@@ -1,8 +1,0 @@
-@import "../variables.scss";
-
-.products-wrapper {
-  margin-left: $drawer-narrow-width;
-  @media (max-width: 767px) {
-    margin-left: 0px;
-  }
-}

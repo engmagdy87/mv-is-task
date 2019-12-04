@@ -1,0 +1,12 @@
+{
+	"status": 200,
+	"data": {
+		"id": 3,
+		"name": "Descubre las pirámides de Giza",
+		"description": "Una de las Siete Maravillas más misteriosas del Mundo Antiguo (y la única que sigue en pie), las Pirámides de Giza, la Gran Pirámide de Khufu, la Pirámide de Khafre y la Pirámide de Menkaure, aún viven más de 4.000 años de exageración. . Ver estas pirámides de la 4a dinastía y su Gran Esfinge guardiana saliendo de la meseta de Giza es imprescindible en cualquier viaje a El Cairo (y la razón por la que muchos viajeros se encuentran en Egipto).",
+		"slug": "descubre-las-pyrmides-de-giza",
+		"long_description": "<h2>pirámides de Giza</h2><p>Pocas estructuras en el planeta son tan inmediatamente reconocibles como las Pirámides de Giza, y los viajeros tienen varias opciones para visitar estas maravillas del antiguo Egipto. La mayoría los ve en una excursión de día completo desde Giza o El Cairo; Estos recorridos a menudo también incluyen un crucero por el río Nilo o paradas en otros lugares de interés como Memphis, el Museo Egipcio y el Bazar Khan El Khalili. Una vez en el sitio de la pirámide, explore el complejo de la pirámide a pie o elija disfrutar de la vista desde lejos con un paseo en camello (una gran oportunidad para tomar fotos). Aquellos que visiten por su cuenta deben tener en cuenta que hay tarifas de entrada separadas para el complejo y cada pirámide individual.</p>",
+		"rate":4,
+		"reviews":250
+	}
+}

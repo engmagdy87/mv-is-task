@@ -1,3 +1,31 @@
+@import "../mixins.scss";
+
 nav {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #880e0e !important;
+}
+
+.brand-wrapper {
+  @include is-mobile {
+    width: 50% !important;
+  }
+}
+
+img {
+  @include is-mobile {
+    width: 100% !important;
+  }
+}
+
+select {
+  width: 80px !important;
+  background: #fff
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+    no-repeat right 0.75rem center/8px 10px;
+  background-color: transparent !important;
+  color: white !important;
+  border: none !important;
+
+  option {
+    color: black !important;
+  }
 }

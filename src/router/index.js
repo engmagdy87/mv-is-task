@@ -1,10 +1,10 @@
 import VueRouter from 'vue-router';
-import Products from '@/views/containers/Products.vue';
+import Home from '@/views/containers/Home.vue';
 
 export const routes = [
-    { path: '/', name: 'home', component: Products },
-    { path: '/products', name: 'products', component: Products },
-    { path: '*', component: Products }
+    { path: '/', name: 'home-en', component: Home, props: { routeLang: "en" } },
+    { path: '/sp', name: 'home-sp', component: Home, props: { routeLang: "sp" } },
+    { path: '*', component: Home, props: { routeLang: "en" } }
 ];
 
 const router = new VueRouter({ routes, mode: 'history' });
